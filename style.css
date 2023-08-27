@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+*{
+    margin: 0px;
+    font-family: Inter, 'Times New Roman', sans-serif;
+}
+
+#logo {
+    width: 100px;
+    margin-top: 52px;
+    margin-left: 56px;
+    background-color: #00000000;
+}
+
+:link {
+    background-color: #00000000;
+}
+
+h1 {
+    margin: 50px 0px 25px 0px;
+    background-color: #00000000;
+}
+p {
+    margin: 25px 0px 25px 0px;
+    background-color: #00000000;
+}
+
+#top-menu-title {
+    margin-left: 100px;
+}
+
+#top-menu-text {
+    margin-left: 100px;
+}
+
+#block-top {
+    color: white;
+    background-image: url(imagens/top-menu-background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+#block-info {
+   	background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icon {
+    margin: 50px 0px 50px 100px;
+    padding-right: 25px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+#block-testimonials {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+
+#h1-testimonials {
+    color: #247BA0;
+}
+
+#div-text-testimonials {
+    margin: 50px 25px 50x 100px;
+}
+
+#p-testimonials {
+    color: #373737;
+    display: flex;
+    align-items: center;
+}
+
+#video {
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel {
+    background-color: #247BA0;
+    padding: 40px 75px 40px 75px;
+    text-align: center;
+}
+
+#h1-carrossel{
+    color: white;
+    font-size: 28px;
+}
+
+.card {
+    margin: 40px 20px 0px 0px;
+}
+
+
+#samantha {
+    display: none;
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+.seta {
+    margin-top: 80%;
+}
+
+.seta:hover {
+    scale:115%;
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+
+#div-card {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#form {
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    margin: 20px;
+    border: 0px;
+    background-color: #EAECE5;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+#submit-button {
+    background-color: #247BA0;
+    width: 220px;
+    height: 35px;
+    color: #EAECE5;
+    border: 0px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#submit-button:hover {
+    transform: scale(110%);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
